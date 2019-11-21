@@ -23,6 +23,9 @@ void print( int matriz[MAX][MAX] ){
     int i, j;
     for(i=0; i<MAX; i++){
         for(j=0; j<MAX; j++){
+          if(matriz[i][j] == 0)
+              printf("  ");
+          else
             printf("%d ", matriz[i][j]);
         }
         printf("\n");
@@ -107,23 +110,30 @@ int check(
       scanf("%d %d", &i, &j);
       printf("Insira um valor: ");
       scanf("%d", &input);
+      printf("\n");
       i--;
       j--;
-
-      if(full[i][j] == 0){
-        full[i][j] = 1;
-        sudoku[i][j] = input;
-        column[j][input - 1] = 1;
-        row[i][input - 1] = 1;
-        box[( i/3 + j/3 ) + 2 * (i/3) ][ input - 1] = 1;
+      if(
+        i >= 0 && i <= 8 &&
+        j >= 0 && j <= 8 &&
+        input >= 1 && input <= 9){
+          if(full[i][j] == 0){
+            full[i][j] = 1;
+            sudoku[i][j] = input;
+            column[j][input - 1] = 1;
+            row[i][input - 1] = 1;
+            box[( i/3 + j/3 ) + 2 * (i/3) ][ input - 1] = 1;
+          }
+          else{
+            column[j][ sudoku[i][j] - 1 ] = 0;
+            row[i][ sudoku[i][j] - 1 ] = 0;
+            box[( i/3 + j/3 ) + 2 * (i/3) ][ sudoku[i][j] - 1] = 0;
+            sudoku[i][j] = input;
+            column[j][input - 1] = 1;
+            row[i][input - 1] = 1;
+            box[( i/3 + j/3 ) + 2 * (i/3) ][ input - 1] = 1;
+          }
       }
-      else{
-        column[j][ sudoku[i][j] - 1 ] = 0;
-        row[i][ sudoku[i][j] - 1 ] = 0;
-        box[( i/3 + j/3 ) + 2 * (i/3) ][ sudoku[i][j] - 1] = 0;
-        sudoku[i][j] = input;
-        column[j][input - 1] = 1;
-        row[i][input - 1] = 1;
-        box[( i/3 + j/3 ) + 2 * (i/3) ][ input - 1] = 1;
-      }
+      else
+        printf("\n\n---ENTRADA INVALIDA---\n\n");
     }
