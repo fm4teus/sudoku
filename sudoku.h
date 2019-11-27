@@ -2,21 +2,21 @@
 #define SUDOKU_H
 #define MAX 9
 
-void print( int matriz[MAX][MAX] );
+struct element{
+  int value;
+  int row;
+  int column;
+  int box;
+  int full;
+  int fixed;
+};
 
-void start(
-  int sudoku[MAX][MAX], int row[MAX][MAX],
-  int column[MAX][MAX], int box[MAX][MAX],
-  int full[MAX][MAX]);
+void print( struct element matriz[MAX][MAX] );
 
-int check(
-  int sudoku[MAX][MAX], int row[MAX][MAX],
-  int column[MAX][MAX], int box[MAX][MAX],
-  int full[MAX][MAX]);
+void start( struct element sudoku[MAX][MAX] );
 
-void update(
-  int sudoku[MAX][MAX], int row[MAX][MAX],
-  int column[MAX][MAX], int box[MAX][MAX],
-  int full[MAX][MAX]);
+int check( struct element sudoku[MAX][MAX] );
+
+void update( struct element sudoku[MAX][MAX] );
 
 #endif

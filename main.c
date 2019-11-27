@@ -4,19 +4,19 @@
 
 #define MAX 9
 
+
 int main(){
 
-    int i, j, flag = 0, input, sudoku[MAX][MAX],
-    row[MAX][MAX], column[MAX][MAX],
-    box[MAX][MAX], full[MAX][MAX];
-
-    start(sudoku, row, column, box, full);
-    flag = check(sudoku, row, column, box, full);
+    int i, j, flag = 0, input;
+    struct element sudoku[MAX][MAX]; 
+    start(sudoku);
+    flag = check(sudoku);
     print(sudoku);
+    
     while (flag != 1) {
       printf("SUDOKU AINDA NAO RESOLVIDO,\n\n");
-      update(sudoku, row, column, box, full);
-      flag = check(sudoku, row, column, box, full);
+      update(sudoku);
+      flag = check(sudoku);
       print(sudoku);
     }
     printf("SUDOKU RESOLVIDO, PARABENS!\n\n");
