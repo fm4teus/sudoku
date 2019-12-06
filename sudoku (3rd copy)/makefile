@@ -23,7 +23,7 @@ LDFLAGS=$(PTHREAD) $(GTKLIB) -export-dynamic
 OBJS=    main.o
 
 all: $(OBJS)
-	$(LD) -o $(TARGET) $(OBJS) $(LDFLAGS) -lm
+	$(LD) -o $(TARGET) $(OBJS) $(LDFLAGS) src/sudoku.c -lm
 
 main.o: src/main.c
 	$(CC) -c $(CCFLAGS) src/main.c $(GTKLIB) -o main.o

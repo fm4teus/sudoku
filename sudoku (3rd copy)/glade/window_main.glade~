@@ -26,7 +26,7 @@
           <packing>
             <property name="left_attach">7</property>
             <property name="top_attach">12</property>
-            <property name="width">2</property>
+            <property name="width">3</property>
           </packing>
         </child>
         <child>
@@ -38,9 +38,9 @@
             <signal name="clicked" handler="on_btn_clicked" swapped="no"/>
           </object>
           <packing>
-            <property name="left_attach">3</property>
+            <property name="left_attach">2</property>
             <property name="top_attach">12</property>
-            <property name="width">3</property>
+            <property name="width">4</property>
           </packing>
         </child>
         <child>
@@ -50,6 +50,7 @@
             <property name="receives_default">True</property>
             <property name="has_tooltip">True</property>
             <property name="use_stock">True</property>
+            <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
           <packing>
             <property name="left_attach">1</property>
@@ -62,6 +63,7 @@
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
             <property name="use_stock">True</property>
+            <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
           <packing>
             <property name="left_attach">2</property>
@@ -75,6 +77,7 @@
             <property name="receives_default">True</property>
             <property name="margin_right">2</property>
             <property name="use_stock">True</property>
+            <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
           <packing>
             <property name="left_attach">3</property>
@@ -88,6 +91,7 @@
             <property name="receives_default">True</property>
             <property name="margin_left">2</property>
             <property name="use_stock">True</property>
+            <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
           <packing>
             <property name="left_attach">4</property>
@@ -100,6 +104,7 @@
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
             <property name="use_stock">True</property>
+            <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
           <packing>
             <property name="left_attach">5</property>
@@ -113,6 +118,7 @@
             <property name="receives_default">True</property>
             <property name="margin_right">2</property>
             <property name="use_stock">True</property>
+            <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
           <packing>
             <property name="left_attach">6</property>
@@ -126,6 +132,7 @@
             <property name="receives_default">True</property>
             <property name="margin_left">2</property>
             <property name="use_stock">True</property>
+            <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
           <packing>
             <property name="left_attach">7</property>
@@ -138,6 +145,7 @@
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
             <property name="use_stock">True</property>
+            <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
           <packing>
             <property name="left_attach">8</property>
@@ -150,6 +158,7 @@
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
             <property name="use_stock">True</property>
+            <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
           <packing>
             <property name="left_attach">9</property>
@@ -158,10 +167,12 @@
         </child>
         <child>
           <object class="GtkButton" id="btn_display_10">
+            <property name="height_request">34</property>
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
             <property name="use_stock">True</property>
+            <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
           <packing>
             <property name="left_attach">1</property>
@@ -174,6 +185,7 @@
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
             <property name="use_stock">True</property>
+            <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
           <packing>
             <property name="left_attach">2</property>
@@ -187,6 +199,7 @@
             <property name="receives_default">True</property>
             <property name="margin_right">2</property>
             <property name="use_stock">True</property>
+            <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
           <packing>
             <property name="left_attach">3</property>
@@ -200,6 +213,7 @@
             <property name="receives_default">True</property>
             <property name="margin_left">2</property>
             <property name="use_stock">True</property>
+            <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
           <packing>
             <property name="left_attach">4</property>
@@ -212,6 +226,7 @@
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
             <property name="use_stock">True</property>
+            <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
           <packing>
             <property name="left_attach">5</property>
@@ -225,6 +240,7 @@
             <property name="receives_default">True</property>
             <property name="margin_right">2</property>
             <property name="use_stock">True</property>
+            <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
           <packing>
             <property name="left_attach">6</property>
@@ -238,6 +254,7 @@
             <property name="receives_default">True</property>
             <property name="margin_left">2</property>
             <property name="use_stock">True</property>
+            <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
           <packing>
             <property name="left_attach">7</property>
@@ -250,6 +267,7 @@
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
             <property name="use_stock">True</property>
+            <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
           <packing>
             <property name="left_attach">8</property>
@@ -262,6 +280,7 @@
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
             <property name="use_stock">True</property>
+            <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
           <packing>
             <property name="left_attach">9</property>
@@ -275,6 +294,7 @@
             <property name="receives_default">True</property>
             <property name="margin_bottom">2</property>
             <property name="use_stock">True</property>
+            <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
           <packing>
             <property name="left_attach">1</property>
@@ -288,6 +308,7 @@
             <property name="receives_default">True</property>
             <property name="margin_bottom">2</property>
             <property name="use_stock">True</property>
+            <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
           <packing>
             <property name="left_attach">2</property>
@@ -302,6 +323,7 @@
             <property name="margin_right">2</property>
             <property name="margin_bottom">2</property>
             <property name="use_stock">True</property>
+            <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
           <packing>
             <property name="left_attach">3</property>
@@ -316,6 +338,7 @@
             <property name="margin_left">2</property>
             <property name="margin_bottom">2</property>
             <property name="use_stock">True</property>
+            <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
           <packing>
             <property name="left_attach">4</property>
@@ -329,6 +352,7 @@
             <property name="receives_default">True</property>
             <property name="margin_bottom">2</property>
             <property name="use_stock">True</property>
+            <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
           <packing>
             <property name="left_attach">5</property>
@@ -343,6 +367,7 @@
             <property name="margin_right">2</property>
             <property name="margin_bottom">2</property>
             <property name="use_stock">True</property>
+            <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
           <packing>
             <property name="left_attach">6</property>
@@ -357,6 +382,7 @@
             <property name="margin_left">2</property>
             <property name="margin_bottom">2</property>
             <property name="use_stock">True</property>
+            <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
           <packing>
             <property name="left_attach">7</property>
@@ -370,6 +396,7 @@
             <property name="receives_default">True</property>
             <property name="margin_bottom">2</property>
             <property name="use_stock">True</property>
+            <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
           <packing>
             <property name="left_attach">8</property>
@@ -383,6 +410,7 @@
             <property name="receives_default">True</property>
             <property name="margin_bottom">2</property>
             <property name="use_stock">True</property>
+            <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
           <packing>
             <property name="left_attach">9</property>
@@ -396,6 +424,7 @@
             <property name="receives_default">True</property>
             <property name="margin_top">2</property>
             <property name="use_stock">True</property>
+            <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
           <packing>
             <property name="left_attach">1</property>
@@ -409,6 +438,7 @@
             <property name="receives_default">True</property>
             <property name="margin_top">2</property>
             <property name="use_stock">True</property>
+            <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
           <packing>
             <property name="left_attach">2</property>
@@ -423,6 +453,7 @@
             <property name="margin_right">2</property>
             <property name="margin_top">2</property>
             <property name="use_stock">True</property>
+            <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
           <packing>
             <property name="left_attach">3</property>
@@ -437,6 +468,7 @@
             <property name="margin_left">2</property>
             <property name="margin_top">2</property>
             <property name="use_stock">True</property>
+            <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
           <packing>
             <property name="left_attach">4</property>
@@ -450,6 +482,7 @@
             <property name="receives_default">True</property>
             <property name="margin_top">2</property>
             <property name="use_stock">True</property>
+            <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
           <packing>
             <property name="left_attach">5</property>
@@ -464,6 +497,7 @@
             <property name="margin_right">2</property>
             <property name="margin_top">2</property>
             <property name="use_stock">True</property>
+            <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
           <packing>
             <property name="left_attach">6</property>
@@ -478,6 +512,7 @@
             <property name="margin_left">2</property>
             <property name="margin_top">2</property>
             <property name="use_stock">True</property>
+            <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
           <packing>
             <property name="left_attach">7</property>
@@ -491,6 +526,7 @@
             <property name="receives_default">True</property>
             <property name="margin_top">2</property>
             <property name="use_stock">True</property>
+            <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
           <packing>
             <property name="left_attach">8</property>
@@ -504,6 +540,7 @@
             <property name="receives_default">True</property>
             <property name="margin_top">2</property>
             <property name="use_stock">True</property>
+            <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
           <packing>
             <property name="left_attach">9</property>
@@ -516,6 +553,7 @@
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
             <property name="use_stock">True</property>
+            <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
           <packing>
             <property name="left_attach">1</property>
@@ -528,6 +566,7 @@
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
             <property name="use_stock">True</property>
+            <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
           <packing>
             <property name="left_attach">2</property>
@@ -541,6 +580,7 @@
             <property name="receives_default">True</property>
             <property name="margin_right">2</property>
             <property name="use_stock">True</property>
+            <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
           <packing>
             <property name="left_attach">3</property>
@@ -554,6 +594,7 @@
             <property name="receives_default">True</property>
             <property name="margin_left">2</property>
             <property name="use_stock">True</property>
+            <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
           <packing>
             <property name="left_attach">4</property>
@@ -566,6 +607,7 @@
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
             <property name="use_stock">True</property>
+            <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
           <packing>
             <property name="left_attach">5</property>
@@ -579,6 +621,7 @@
             <property name="receives_default">True</property>
             <property name="margin_right">2</property>
             <property name="use_stock">True</property>
+            <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
           <packing>
             <property name="left_attach">6</property>
@@ -592,6 +635,7 @@
             <property name="receives_default">True</property>
             <property name="margin_left">2</property>
             <property name="use_stock">True</property>
+            <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
           <packing>
             <property name="left_attach">7</property>
@@ -604,6 +648,7 @@
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
             <property name="use_stock">True</property>
+            <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
           <packing>
             <property name="left_attach">8</property>
@@ -616,6 +661,7 @@
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
             <property name="use_stock">True</property>
+            <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
           <packing>
             <property name="left_attach">9</property>
@@ -629,6 +675,7 @@
             <property name="receives_default">True</property>
             <property name="margin_bottom">2</property>
             <property name="use_stock">True</property>
+            <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
           <packing>
             <property name="left_attach">1</property>
@@ -642,6 +689,7 @@
             <property name="receives_default">True</property>
             <property name="margin_bottom">2</property>
             <property name="use_stock">True</property>
+            <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
           <packing>
             <property name="left_attach">2</property>
@@ -656,6 +704,7 @@
             <property name="margin_right">2</property>
             <property name="margin_bottom">2</property>
             <property name="use_stock">True</property>
+            <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
           <packing>
             <property name="left_attach">3</property>
@@ -670,6 +719,7 @@
             <property name="margin_left">2</property>
             <property name="margin_bottom">2</property>
             <property name="use_stock">True</property>
+            <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
           <packing>
             <property name="left_attach">4</property>
@@ -683,6 +733,7 @@
             <property name="receives_default">True</property>
             <property name="margin_bottom">2</property>
             <property name="use_stock">True</property>
+            <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
           <packing>
             <property name="left_attach">5</property>
@@ -697,6 +748,7 @@
             <property name="margin_right">2</property>
             <property name="margin_bottom">2</property>
             <property name="use_stock">True</property>
+            <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
           <packing>
             <property name="left_attach">6</property>
@@ -711,6 +763,7 @@
             <property name="margin_left">2</property>
             <property name="margin_bottom">2</property>
             <property name="use_stock">True</property>
+            <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
           <packing>
             <property name="left_attach">7</property>
@@ -724,6 +777,7 @@
             <property name="receives_default">True</property>
             <property name="margin_bottom">2</property>
             <property name="use_stock">True</property>
+            <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
           <packing>
             <property name="left_attach">8</property>
@@ -737,6 +791,7 @@
             <property name="receives_default">True</property>
             <property name="margin_bottom">2</property>
             <property name="use_stock">True</property>
+            <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
           <packing>
             <property name="left_attach">9</property>
@@ -750,6 +805,7 @@
             <property name="receives_default">True</property>
             <property name="margin_top">2</property>
             <property name="use_stock">True</property>
+            <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
           <packing>
             <property name="left_attach">1</property>
@@ -763,6 +819,7 @@
             <property name="receives_default">True</property>
             <property name="margin_top">2</property>
             <property name="use_stock">True</property>
+            <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
           <packing>
             <property name="left_attach">2</property>
@@ -777,6 +834,7 @@
             <property name="margin_right">2</property>
             <property name="margin_top">2</property>
             <property name="use_stock">True</property>
+            <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
           <packing>
             <property name="left_attach">3</property>
@@ -791,6 +849,7 @@
             <property name="margin_left">2</property>
             <property name="margin_top">2</property>
             <property name="use_stock">True</property>
+            <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
           <packing>
             <property name="left_attach">4</property>
@@ -804,6 +863,7 @@
             <property name="receives_default">True</property>
             <property name="margin_top">2</property>
             <property name="use_stock">True</property>
+            <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
           <packing>
             <property name="left_attach">5</property>
@@ -818,6 +878,7 @@
             <property name="margin_right">2</property>
             <property name="margin_top">2</property>
             <property name="use_stock">True</property>
+            <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
           <packing>
             <property name="left_attach">6</property>
@@ -832,6 +893,7 @@
             <property name="margin_left">2</property>
             <property name="margin_top">2</property>
             <property name="use_stock">True</property>
+            <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
           <packing>
             <property name="left_attach">7</property>
@@ -845,6 +907,7 @@
             <property name="receives_default">True</property>
             <property name="margin_top">2</property>
             <property name="use_stock">True</property>
+            <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
           <packing>
             <property name="left_attach">8</property>
@@ -858,6 +921,7 @@
             <property name="receives_default">True</property>
             <property name="margin_top">2</property>
             <property name="use_stock">True</property>
+            <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
           <packing>
             <property name="left_attach">9</property>
@@ -870,6 +934,7 @@
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
             <property name="use_stock">True</property>
+            <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
           <packing>
             <property name="left_attach">1</property>
@@ -882,6 +947,7 @@
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
             <property name="use_stock">True</property>
+            <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
           <packing>
             <property name="left_attach">2</property>
@@ -895,6 +961,7 @@
             <property name="receives_default">True</property>
             <property name="margin_right">2</property>
             <property name="use_stock">True</property>
+            <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
           <packing>
             <property name="left_attach">3</property>
@@ -908,6 +975,7 @@
             <property name="receives_default">True</property>
             <property name="margin_left">2</property>
             <property name="use_stock">True</property>
+            <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
           <packing>
             <property name="left_attach">4</property>
@@ -920,6 +988,7 @@
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
             <property name="use_stock">True</property>
+            <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
           <packing>
             <property name="left_attach">5</property>
@@ -933,6 +1002,7 @@
             <property name="receives_default">True</property>
             <property name="margin_right">2</property>
             <property name="use_stock">True</property>
+            <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
           <packing>
             <property name="left_attach">6</property>
@@ -946,6 +1016,7 @@
             <property name="receives_default">True</property>
             <property name="margin_left">2</property>
             <property name="use_stock">True</property>
+            <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
           <packing>
             <property name="left_attach">7</property>
@@ -958,6 +1029,7 @@
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
             <property name="use_stock">True</property>
+            <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
           <packing>
             <property name="left_attach">8</property>
@@ -970,6 +1042,7 @@
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
             <property name="use_stock">True</property>
+            <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
           <packing>
             <property name="left_attach">9</property>
@@ -982,6 +1055,7 @@
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
             <property name="use_stock">True</property>
+            <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
           <packing>
             <property name="left_attach">1</property>
@@ -994,6 +1068,7 @@
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
             <property name="use_stock">True</property>
+            <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
           <packing>
             <property name="left_attach">2</property>
@@ -1007,6 +1082,7 @@
             <property name="receives_default">True</property>
             <property name="margin_right">2</property>
             <property name="use_stock">True</property>
+            <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
           <packing>
             <property name="left_attach">3</property>
@@ -1020,6 +1096,7 @@
             <property name="receives_default">True</property>
             <property name="margin_left">2</property>
             <property name="use_stock">True</property>
+            <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
           <packing>
             <property name="left_attach">4</property>
@@ -1032,6 +1109,7 @@
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
             <property name="use_stock">True</property>
+            <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
           <packing>
             <property name="left_attach">5</property>
@@ -1045,6 +1123,7 @@
             <property name="receives_default">True</property>
             <property name="margin_right">2</property>
             <property name="use_stock">True</property>
+            <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
           <packing>
             <property name="left_attach">6</property>
@@ -1058,6 +1137,7 @@
             <property name="receives_default">True</property>
             <property name="margin_left">2</property>
             <property name="use_stock">True</property>
+            <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
           <packing>
             <property name="left_attach">7</property>
@@ -1070,6 +1150,7 @@
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
             <property name="use_stock">True</property>
+            <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
           <packing>
             <property name="left_attach">8</property>
@@ -1082,11 +1163,235 @@
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
             <property name="use_stock">True</property>
+            <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
           <packing>
             <property name="left_attach">9</property>
             <property name="top_attach">9</property>
           </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="btn_input1">
+            <property name="label" translatable="yes">1</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <signal name="clicked" handler="on_btn_input1_clicked" swapped="no"/>
+          </object>
+          <packing>
+            <property name="left_attach">11</property>
+            <property name="top_attach">1</property>
+            <property name="width">2</property>
+            <property name="height">2</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="btn_input2">
+            <property name="label" translatable="yes">2</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <signal name="clicked" handler="on_btn_input2_clicked" swapped="no"/>
+          </object>
+          <packing>
+            <property name="left_attach">13</property>
+            <property name="top_attach">1</property>
+            <property name="width">2</property>
+            <property name="height">2</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="btn_input3">
+            <property name="label" translatable="yes">3</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <signal name="clicked" handler="on_btn_input3_clicked" swapped="no"/>
+          </object>
+          <packing>
+            <property name="left_attach">15</property>
+            <property name="top_attach">1</property>
+            <property name="width">2</property>
+            <property name="height">2</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="btn_input4">
+            <property name="label" translatable="yes">4</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <signal name="clicked" handler="on_btn_input4_clicked" swapped="no"/>
+          </object>
+          <packing>
+            <property name="left_attach">11</property>
+            <property name="top_attach">3</property>
+            <property name="width">2</property>
+            <property name="height">2</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="btn_input5">
+            <property name="label" translatable="yes">5</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <signal name="clicked" handler="on_btn_input5_clicked" swapped="no"/>
+          </object>
+          <packing>
+            <property name="left_attach">13</property>
+            <property name="top_attach">3</property>
+            <property name="width">2</property>
+            <property name="height">2</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="btn_input6">
+            <property name="label" translatable="yes">6</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <signal name="clicked" handler="on_btn_input6_clicked" swapped="no"/>
+          </object>
+          <packing>
+            <property name="left_attach">15</property>
+            <property name="top_attach">3</property>
+            <property name="width">2</property>
+            <property name="height">2</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="btn_input7">
+            <property name="label" translatable="yes">7</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <signal name="clicked" handler="on_btn_input7_clicked" swapped="no"/>
+          </object>
+          <packing>
+            <property name="left_attach">11</property>
+            <property name="top_attach">5</property>
+            <property name="width">2</property>
+            <property name="height">2</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="btn_input8">
+            <property name="label" translatable="yes">8</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <signal name="clicked" handler="on_btn_input8_clicked" swapped="no"/>
+          </object>
+          <packing>
+            <property name="left_attach">13</property>
+            <property name="top_attach">5</property>
+            <property name="width">2</property>
+            <property name="height">2</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="btn_input9">
+            <property name="label" translatable="yes">9</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <signal name="clicked" handler="on_btn_input_clicked" swapped="no"/>
+          </object>
+          <packing>
+            <property name="left_attach">15</property>
+            <property name="top_attach">5</property>
+            <property name="width">2</property>
+            <property name="height">2</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="btn_check">
+            <property name="label" translatable="yes">button</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+          </object>
+          <packing>
+            <property name="left_attach">12</property>
+            <property name="top_attach">8</property>
+            <property name="width">2</property>
+          </packing>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
         </child>
         <child>
           <placeholder/>
