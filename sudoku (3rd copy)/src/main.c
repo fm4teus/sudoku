@@ -1,10 +1,12 @@
 #include <gtk/gtk.h>
 #include <stdbool.h>
+#include <time.h>
 #include "sudoku.h"
 
 #define MAX_SIZE 9
 
 int linha, coluna;
+time_t game_start, game_end;
 GtkWidget *g_btn;
 GtkLabel *g_lbl;
 GtkButton *g_btn_display[MAX_SIZE][MAX_SIZE];
@@ -51,6 +53,7 @@ int main(int argc, char *argv[])
 // called when button is clicked
 void on_btn_clicked()
 {
+  time(&game_start);
   int i, j;
   start( jogo );
   char str[10];
@@ -88,7 +91,10 @@ void on_btn_input_clicked( GtkButton *button, gpointer data ){
 void on_btn_check_clicked(){
   bool solved = check( jogo );
   if(solved == true){
-    gtk_label_set_text(g_lbl, "SUDOKU RESOLVIDO");
+    char msg[40];
+    time(&game_end);
+    sprintf(msg, "SUDOKU RESOLVIDO EM %.2lf SEGUNDOS", difftime(game_end, game_start));
+    gtk_label_set_text(g_lbl, msg);
   }
   else{
     gtk_label_set_text(g_lbl, "SUDOKU AINDA NAO RESOLVIDO");
