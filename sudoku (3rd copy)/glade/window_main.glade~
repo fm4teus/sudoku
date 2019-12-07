@@ -26,12 +26,12 @@
           <packing>
             <property name="left_attach">7</property>
             <property name="top_attach">12</property>
-            <property name="width">3</property>
+            <property name="width">7</property>
           </packing>
         </child>
         <child>
           <object class="GtkButton" id="btn">
-            <property name="label" translatable="yes">button</property>
+            <property name="label" translatable="yes">START</property>
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
@@ -1176,7 +1176,7 @@
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
-            <signal name="clicked" handler="on_btn_input1_clicked" swapped="no"/>
+            <signal name="clicked" handler="on_btn_input_clicked" swapped="no"/>
           </object>
           <packing>
             <property name="left_attach">11</property>
@@ -1191,7 +1191,7 @@
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
-            <signal name="clicked" handler="on_btn_input2_clicked" swapped="no"/>
+            <signal name="clicked" handler="on_btn_input_clicked" swapped="no"/>
           </object>
           <packing>
             <property name="left_attach">13</property>
@@ -1206,7 +1206,7 @@
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
-            <signal name="clicked" handler="on_btn_input3_clicked" swapped="no"/>
+            <signal name="clicked" handler="on_btn_input_clicked" swapped="no"/>
           </object>
           <packing>
             <property name="left_attach">15</property>
@@ -1221,7 +1221,7 @@
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
-            <signal name="clicked" handler="on_btn_input4_clicked" swapped="no"/>
+            <signal name="clicked" handler="on_btn_input_clicked" swapped="no"/>
           </object>
           <packing>
             <property name="left_attach">11</property>
@@ -1236,7 +1236,7 @@
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
-            <signal name="clicked" handler="on_btn_input5_clicked" swapped="no"/>
+            <signal name="clicked" handler="on_btn_input_clicked" swapped="no"/>
           </object>
           <packing>
             <property name="left_attach">13</property>
@@ -1251,7 +1251,7 @@
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
-            <signal name="clicked" handler="on_btn_input6_clicked" swapped="no"/>
+            <signal name="clicked" handler="on_btn_input_clicked" swapped="no"/>
           </object>
           <packing>
             <property name="left_attach">15</property>
@@ -1266,7 +1266,7 @@
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
-            <signal name="clicked" handler="on_btn_input7_clicked" swapped="no"/>
+            <signal name="clicked" handler="on_btn_input_clicked" swapped="no"/>
           </object>
           <packing>
             <property name="left_attach">11</property>
@@ -1281,7 +1281,7 @@
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
-            <signal name="clicked" handler="on_btn_input8_clicked" swapped="no"/>
+            <signal name="clicked" handler="on_btn_input_clicked" swapped="no"/>
           </object>
           <packing>
             <property name="left_attach">13</property>
@@ -1307,10 +1307,11 @@
         </child>
         <child>
           <object class="GtkButton" id="btn_check">
-            <property name="label" translatable="yes">button</property>
+            <property name="label" translatable="yes">CHECK</property>
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
+            <signal name="clicked" handler="on_btn_check_clicked" swapped="no"/>
           </object>
           <packing>
             <property name="left_attach">12</property>
@@ -1319,16 +1320,17 @@
           </packing>
         </child>
         <child>
-          <placeholder/>
-        </child>
-        <child>
-          <placeholder/>
-        </child>
-        <child>
-          <placeholder/>
-        </child>
-        <child>
-          <placeholder/>
+          <object class="GtkImage">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">blank-sudoku-grid.png</property>
+          </object>
+          <packing>
+            <property name="left_attach">1</property>
+            <property name="top_attach">1</property>
+            <property name="width">9</property>
+            <property name="height">9</property>
+          </packing>
         </child>
         <child>
           <placeholder/>

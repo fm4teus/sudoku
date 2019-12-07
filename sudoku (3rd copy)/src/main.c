@@ -1,4 +1,5 @@
 #include <gtk/gtk.h>
+#include <stdbool.h>
 #include "sudoku.h"
 
 #define MAX_SIZE 9
@@ -8,7 +9,7 @@ GtkWidget *g_btn;
 GtkLabel *g_lbl;
 GtkButton *g_btn_display[MAX_SIZE][MAX_SIZE];
 GtkButton *g_btn_input[MAX_SIZE];
-struct element jogo[MAX_SIZE][MAX_SIZE];
+element jogo[MAX_SIZE][MAX_SIZE];
 
 int main(int argc, char *argv[])
 {
@@ -78,7 +79,20 @@ void on_btn_display_clicked( GtkButton *button, gpointer data ){
 }
 
 void on_btn_input_clicked( GtkButton *button, gpointer data ){
-  gtk_button_set_label(g_btn_display[linha][coluna], gtk_button_get_label(button));
+  if( jogo[linha][coluna].fixed == false){
+    gtk_button_set_label(g_btn_display[linha][coluna], gtk_button_get_label(button));
+    update( jogo, linha, coluna, atoll(gtk_button_get_label(button)));
+  }
+}
+
+void on_btn_check_clicked(){
+  bool solved = check( jogo );
+  if(solved == true){
+    gtk_label_set_text(g_lbl, "SUDOKU RESOLVIDO");
+  }
+  else{
+    gtk_label_set_text(g_lbl, "SUDOKU AINDA NAO RESOLVIDO");
+  }
 }
 
 
