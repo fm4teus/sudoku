@@ -11,6 +11,9 @@ GtkWidget *g_btn;
 GtkLabel *g_lbl;
 GtkButton *g_btn_display[MAX_SIZE][MAX_SIZE];
 GtkButton *g_btn_input[MAX_SIZE];
+GtkButton *g_btn_test[MAX_SIZE];
+GtkWidget *g_img;
+GtkEntry *g_entry_name;
 element jogo[MAX_SIZE][MAX_SIZE];
 
 int main(int argc, char *argv[])
@@ -21,7 +24,7 @@ int main(int argc, char *argv[])
 
     gtk_init(&argc, &argv);
 
-    builder = gtk_builder_new_from_file ("glade/window_main.glade");
+    builder = gtk_builder_new_from_file("glade/window_main.glade");
 
     window = GTK_WIDGET(gtk_builder_get_object(builder, "window_main"));
     gtk_builder_connect_signals(builder, NULL);
@@ -29,20 +32,24 @@ int main(int argc, char *argv[])
     // get pointers to the two labels
     g_lbl = GTK_LABEL(gtk_builder_get_object(builder, "lbl"));
     g_btn = GTK_WIDGET(gtk_builder_get_object(builder, "btn"));
-
+    g_img = GTK_WIDGET(gtk_builder_get_object(builder, "img"));
+    g_entry_name = GTK_ENTRY(gtk_builder_get_object(builder, "entry_name"));
+    
+    // get pointers to the buttons
     char btn_name[20];
     for(i=0;i<MAX_SIZE;i++){
-      sprintf(btn_name, "btn_input_%d", i + 1);
+      sprintf(btn_name, "btn_input%d", i+1 );
       g_btn_input[i] = GTK_BUTTON(gtk_builder_get_object(builder, btn_name));
+      g_object_set(g_btn_input[i],"visible",false,NULL);
       for(j=0;j<MAX_SIZE;j++){
         sprintf(btn_name, "btn_display_%d%d", i, j);
         g_btn_display[i][j] = GTK_BUTTON(gtk_builder_get_object(builder, btn_name));
+        g_object_set(g_btn_display[i][j], "visible", false, NULL);
       }
     }
-
+    g_object_set(g_img, "visible", false, NULL);
 
     g_object_unref(builder);
-
 
     gtk_widget_show(window);
     gtk_main();
@@ -53,12 +60,15 @@ int main(int argc, char *argv[])
 // called when button is clicked
 void on_btn_clicked()
 {
+  g_object_set(g_img, "visible", true, NULL);
   time(&game_start);
   int i, j;
   start( jogo );
   char str[10];
   for(i=0;i<MAX_SIZE;i++){
-    for(j=0;j<MAX_SIZE;j++){      
+    g_object_set(g_btn_input[i], "visible", true, NULL);
+    for(j=0;j<MAX_SIZE;j++){ 
+      g_object_set(g_btn_display[i][j], "visible", true, NULL);
       if(jogo[i][j].value == 0)
         gtk_button_set_label(g_btn_display[i][j], " ");
       else{
@@ -89,11 +99,15 @@ void on_btn_input_clicked( GtkButton *button, gpointer data ){
 }
 
 void on_btn_check_clicked(){
+  int i;
   bool solved = check( jogo );
   if(solved == true){
-    char msg[40];
+    for(i=0; i<MAX_SIZE; i++){
+      g_object_set(g_btn_input[i], "visible", false, NULL);
+    }
+    char msg[80];
     time(&game_end);
-    sprintf(msg, "SUDOKU RESOLVIDO EM %.2lf SEGUNDOS", difftime(game_end, game_start));
+    sprintf(msg, "PARABENS %s\nSUDOKU RESOLVIDO EM %.2lf segundos", gtk_entry_get_text(g_entry_name) ,difftime(game_end, game_start));
     gtk_label_set_text(g_lbl, msg);
   }
   else{
