@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
+#include <string.h>
 #include "sudoku.h"
 #define MAX_SIZE 9
 
@@ -11,6 +12,8 @@ void start( element sudoku[MAX_SIZE][MAX_SIZE] );
 bool check( element sudoku[MAX_SIZE][MAX_SIZE] );
 
 void update( element sudoku[MAX_SIZE][MAX_SIZE], int i, int j, int input );
+
+void get_highscore();
 
 int box_number( int i, int j );
 
@@ -124,6 +127,55 @@ bool check( element sudoku[MAX_SIZE][MAX_SIZE] ){
       else
         printf("\n\n---ENTRADA INVALIDA---\n\n");
     }
+
+void get_highscore( char* buffer , char* name, int time ){
+    int i = 0;
+
+	high_score rank[MAX_RANK];
+	FILE *fr;
+	fr = fopen( "src/arquivo.txt", "r" );
+	if( !fr ){
+		printf("Erro ao abrir arquivo!\n ");
+		exit(-1);
+	}
+	for( i=0; i<MAX_RANK; i++){
+		fscanf(fr, "%s %d\n", rank[i].name, &rank[i].time);
+	}
+	fclose(fr);
+    if(time < rank[0].time){
+		rank[2].time = rank[1].time;
+		rank[1].time = rank[0].time;
+		rank[0].time = time;
+		strcpy( rank[2].name, rank[1].name);
+		strcpy( rank[1].name, rank[0].name);
+		strcpy( rank[0].name, name);
+	}
+
+	else if(time < rank[1].time){
+		rank[2].time = rank[1].time;
+		rank[1].time = time;
+		strcpy( rank[2].name, rank[1].name);
+		strcpy( rank[1].name, name);
+	}
+	else if(time < rank[2].time){
+		rank[2].time = time;
+		strcpy( rank[2].name, name);
+	}
+
+
+
+	sprintf( buffer, "%s %d\n%s %d\n%s %d\n",
+	rank[0].name, rank[0].time,
+	rank[1].name, rank[1].time,
+	rank[2].name, rank[2].time);
+	fr = fopen("src/arquivo.txt", "w");
+	if( !fr ){
+		printf("Erro ao abrir arquivo!\n ");
+		exit(-1);
+	}
+	fputs(buffer, fr);
+	fclose(fr);
+}
 
 int box_number(int i, int j){
     return  ( i/3 + j/3 ) + 2 * (i/3);

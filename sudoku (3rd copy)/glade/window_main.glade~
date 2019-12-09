@@ -1367,12 +1367,17 @@
           <object class="GtkLabel" id="lbl">
             <property name="visible">True</property>
             <property name="can_focus">False</property>
+            <attributes>
+              <attribute name="font-desc" value="Sans Bold 10"/>
+              <attribute name="scale" value="0"/>
+              <attribute name="background" value="#bababdbdb6b6"/>
+            </attributes>
           </object>
           <packing>
             <property name="left_attach">11</property>
-            <property name="top_attach">3</property>
+            <property name="top_attach">2</property>
             <property name="width">6</property>
-            <property name="height">2</property>
+            <property name="height">4</property>
           </packing>
         </child>
         <child>
@@ -1512,46 +1517,6 @@
           </object>
           <packing>
             <property name="left_attach">1</property>
-            <property name="top_attach">12</property>
-          </packing>
-        </child>
-        <child>
-          <object class="GtkSeparator">
-            <property name="visible">True</property>
-            <property name="can_focus">False</property>
-          </object>
-          <packing>
-            <property name="left_attach">6</property>
-            <property name="top_attach">12</property>
-          </packing>
-        </child>
-        <child>
-          <object class="GtkSeparator">
-            <property name="visible">True</property>
-            <property name="can_focus">False</property>
-          </object>
-          <packing>
-            <property name="left_attach">7</property>
-            <property name="top_attach">12</property>
-          </packing>
-        </child>
-        <child>
-          <object class="GtkSeparator">
-            <property name="visible">True</property>
-            <property name="can_focus">False</property>
-          </object>
-          <packing>
-            <property name="left_attach">8</property>
-            <property name="top_attach">12</property>
-          </packing>
-        </child>
-        <child>
-          <object class="GtkSeparator">
-            <property name="visible">True</property>
-            <property name="can_focus">False</property>
-          </object>
-          <packing>
-            <property name="left_attach">9</property>
             <property name="top_attach">12</property>
           </packing>
         </child>
@@ -1726,6 +1691,18 @@
             <property name="top_attach">10</property>
             <property name="width">4</property>
           </packing>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
         </child>
         <child>
           <placeholder/>

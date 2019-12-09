@@ -1683,6 +1683,7 @@
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="max_length">10</property>
+            <property name="input_purpose">phone</property>
           </object>
           <packing>
             <property name="left_attach">2</property>

@@ -1,6 +1,7 @@
 #include <gtk/gtk.h>
 #include <stdbool.h>
 #include <time.h>
+#include <string.h>
 #include "sudoku.h"
 
 #define MAX_SIZE 9
@@ -105,9 +106,20 @@ void on_btn_check_clicked(){
     for(i=0; i<MAX_SIZE; i++){
       g_object_set(g_btn_input[i], "visible", false, NULL);
     }
-    char msg[80];
+    char name[10];
+    strcpy(name, gtk_entry_get_text(g_entry_name));
+  
+    //remove possível caractere de espaço na entrada do usuario terminando ali a entrada
+    for(i=0; *(name + i)!='\0'; i++ ){
+        if( *(name + i)==' ')
+            *(name + i) = '\0';
+    }
+    char hs[140];
     time(&game_end);
-    sprintf(msg, "PARABENS %s\nSUDOKU RESOLVIDO EM %.2lf segundos", gtk_entry_get_text(g_entry_name) ,difftime(game_end, game_start));
+    get_highscore( hs, name, (int)difftime(game_end, game_start) );
+    char msg[280];
+    
+    sprintf(msg, "PARABENS %s\nSUDOKU RESOLVIDO EM %.2lf segundos\nHIGHSCORES:\n%s", name ,difftime(game_end, game_start), hs);
     gtk_label_set_text(g_lbl, msg);
   }
   else{
