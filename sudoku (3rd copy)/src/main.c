@@ -17,6 +17,18 @@ GtkWidget *g_img;
 GtkEntry *g_entry_name;
 element jogo[MAX_SIZE][MAX_SIZE];
 
+void hide_btn_input(){
+  for(int i=0; i<MAX_SIZE; i++){
+    g_object_set(g_btn_input[i], "visible", false, NULL);
+  }
+}
+
+void show_btn_input(){
+  for(int i=0; i<MAX_SIZE; i++){
+    g_object_set(g_btn_input[i], "visible", true, NULL);
+  }
+}
+
 int main(int argc, char *argv[])
 {
     int i, j;
@@ -81,6 +93,7 @@ void on_btn_clicked()
 }
 
 void on_btn_display_clicked( GtkButton *button, gpointer data ){
+  show_btn_input();
   int i, j;
   for(i=0; i<MAX_SIZE; i++){
     for(j=0; j<MAX_SIZE; j++){
@@ -101,12 +114,11 @@ void on_btn_input_clicked( GtkButton *button, gpointer data ){
 
 void on_btn_check_clicked(){
   int i;
+  hide_btn_input();
   bool solved = check( jogo );
   if(solved == true){
-    for(i=0; i<MAX_SIZE; i++){
-      g_object_set(g_btn_input[i], "visible", false, NULL);
-    }
-    char name[10];
+    char name[10], hs[140], msg[280];
+    
     strcpy(name, gtk_entry_get_text(g_entry_name));
   
     //remove possível caractere de espaço na entrada do usuario terminando ali a entrada
@@ -114,18 +126,20 @@ void on_btn_check_clicked(){
         if( *(name + i)==' ')
             *(name + i) = '\0';
     }
-    char hs[140];
+    
     time(&game_end);
     get_highscore( hs, name, (int)difftime(game_end, game_start) );
-    char msg[280];
     
-    sprintf(msg, "PARABENS %s\nSUDOKU RESOLVIDO EM %.2lf segundos\nHIGHSCORES:\n%s", name ,difftime(game_end, game_start), hs);
+    
+    sprintf(msg, "PARABENS %s\nSUDOKU RESOLVIDO EM %.2lf segundos\n\nHIGHSCORES:\n%s", name ,difftime(game_end, game_start), hs);
     gtk_label_set_text(g_lbl, msg);
   }
   else{
     gtk_label_set_text(g_lbl, "SUDOKU AINDA NAO RESOLVIDO");
   }
 }
+
+
 
 
 // called when window is closed

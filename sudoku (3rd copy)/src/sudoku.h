@@ -5,7 +5,7 @@
 
 #define MAX_SIZE 9
 #define MAX_NAME 12
-#define MAX_RANK 3
+#define MAX_RANK 10
 
 typedef struct{
 	char name[MAX_NAME];

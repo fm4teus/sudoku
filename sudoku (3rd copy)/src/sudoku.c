@@ -129,9 +129,9 @@ bool check( element sudoku[MAX_SIZE][MAX_SIZE] ){
     }
 
 void get_highscore( char* buffer , char* name, int time ){
-    int i = 0;
+    int i = 0, j = 0;
 
-	high_score rank[MAX_RANK];
+	high_score rank[MAX_RANK], t;
 	FILE *fr;
 	fr = fopen( "src/arquivo.txt", "r" );
 	if( !fr ){
@@ -142,32 +142,34 @@ void get_highscore( char* buffer , char* name, int time ){
 		fscanf(fr, "%s %d\n", rank[i].name, &rank[i].time);
 	}
 	fclose(fr);
-    if(time < rank[0].time){
-		rank[2].time = rank[1].time;
-		rank[1].time = rank[0].time;
-		rank[0].time = time;
-		strcpy( rank[2].name, rank[1].name);
-		strcpy( rank[1].name, rank[0].name);
-		strcpy( rank[0].name, name);
-	}
 
-	else if(time < rank[1].time){
-		rank[2].time = rank[1].time;
-		rank[1].time = time;
-		strcpy( rank[2].name, rank[1].name);
-		strcpy( rank[1].name, name);
-	}
-	else if(time < rank[2].time){
-		rank[2].time = time;
-		strcpy( rank[2].name, name);
-	}
+    // insertion sort na lista de highscores
+    if(time < rank[MAX_RANK - 1].time){
+        rank[MAX_RANK - 1].time = time;
+        strcpy( rank[MAX_RANK - 1].name, name);
+        for(i=1; i<MAX_RANK; i++){
+		    j=i;
+		    while(j > 0 && rank[j-1].time > rank[j].time){
+			    t = rank[j];
+			    rank[j] = rank[j-1];
+			    rank[j-1] = t;
+			    j--;	
+		    }
+	    }
+    }
 
-
-
-	sprintf( buffer, "%s %d\n%s %d\n%s %d\n",
+	sprintf( buffer, "%s %d\n%s %d\n%s %d\n%s %d\n%s %d\n%s %d\n%s %d\n%s %d\n%s %d\n%s %d\n",
 	rank[0].name, rank[0].time,
 	rank[1].name, rank[1].time,
-	rank[2].name, rank[2].time);
+    rank[2].name, rank[2].time,
+    rank[3].name, rank[3].time,
+    rank[4].name, rank[4].time,
+    rank[5].name, rank[5].time,
+    rank[6].name, rank[6].time,
+    rank[7].name, rank[7].time,
+    rank[8].name, rank[8].time,
+	rank[9].name, rank[9].time);
+
 	fr = fopen("src/arquivo.txt", "w");
 	if( !fr ){
 		printf("Erro ao abrir arquivo!\n ");
