@@ -25,10 +25,9 @@
             <signal name="clicked" handler="on_btn_clicked" swapped="no"/>
           </object>
           <packing>
-            <property name="left_attach">2</property>
+            <property name="left_attach">13</property>
             <property name="top_attach">11</property>
-            <property name="width">4</property>
-            <property name="height">2</property>
+            <property name="width">2</property>
           </packing>
         </child>
         <child>
@@ -37,6 +36,10 @@
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
             <property name="has_tooltip">True</property>
+            <property name="margin_left">5</property>
+            <property name="margin_right">5</property>
+            <property name="margin_top">5</property>
+            <property name="margin_bottom">5</property>
             <property name="use_stock">True</property>
             <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
@@ -50,6 +53,10 @@
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
+            <property name="margin_left">5</property>
+            <property name="margin_right">5</property>
+            <property name="margin_top">5</property>
+            <property name="margin_bottom">5</property>
             <property name="use_stock">True</property>
             <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
@@ -63,7 +70,10 @@
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
-            <property name="margin_right">2</property>
+            <property name="margin_left">5</property>
+            <property name="margin_right">5</property>
+            <property name="margin_top">5</property>
+            <property name="margin_bottom">5</property>
             <property name="use_stock">True</property>
             <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
@@ -77,7 +87,10 @@
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
-            <property name="margin_left">2</property>
+            <property name="margin_left">5</property>
+            <property name="margin_right">5</property>
+            <property name="margin_top">5</property>
+            <property name="margin_bottom">5</property>
             <property name="use_stock">True</property>
             <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
@@ -91,6 +104,10 @@
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
+            <property name="margin_left">5</property>
+            <property name="margin_right">5</property>
+            <property name="margin_top">5</property>
+            <property name="margin_bottom">5</property>
             <property name="use_stock">True</property>
             <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
@@ -104,7 +121,10 @@
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
-            <property name="margin_right">2</property>
+            <property name="margin_left">5</property>
+            <property name="margin_right">5</property>
+            <property name="margin_top">5</property>
+            <property name="margin_bottom">5</property>
             <property name="use_stock">True</property>
             <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
@@ -118,7 +138,10 @@
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
-            <property name="margin_left">2</property>
+            <property name="margin_left">5</property>
+            <property name="margin_right">5</property>
+            <property name="margin_top">5</property>
+            <property name="margin_bottom">5</property>
             <property name="use_stock">True</property>
             <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
@@ -132,6 +155,10 @@
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
+            <property name="margin_left">5</property>
+            <property name="margin_right">5</property>
+            <property name="margin_top">5</property>
+            <property name="margin_bottom">5</property>
             <property name="use_stock">True</property>
             <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
@@ -145,6 +172,10 @@
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
+            <property name="margin_left">5</property>
+            <property name="margin_right">5</property>
+            <property name="margin_top">5</property>
+            <property name="margin_bottom">5</property>
             <property name="use_stock">True</property>
             <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
@@ -159,6 +190,10 @@
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
+            <property name="margin_left">5</property>
+            <property name="margin_right">5</property>
+            <property name="margin_top">5</property>
+            <property name="margin_bottom">5</property>
             <property name="use_stock">True</property>
             <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
@@ -172,6 +207,10 @@
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
+            <property name="margin_left">5</property>
+            <property name="margin_right">5</property>
+            <property name="margin_top">5</property>
+            <property name="margin_bottom">5</property>
             <property name="use_stock">True</property>
             <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
@@ -185,7 +224,10 @@
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
-            <property name="margin_right">2</property>
+            <property name="margin_left">5</property>
+            <property name="margin_right">5</property>
+            <property name="margin_top">5</property>
+            <property name="margin_bottom">5</property>
             <property name="use_stock">True</property>
             <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
@@ -199,7 +241,10 @@
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
-            <property name="margin_left">2</property>
+            <property name="margin_left">5</property>
+            <property name="margin_right">5</property>
+            <property name="margin_top">5</property>
+            <property name="margin_bottom">5</property>
             <property name="use_stock">True</property>
             <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
@@ -213,6 +258,10 @@
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
+            <property name="margin_left">5</property>
+            <property name="margin_right">5</property>
+            <property name="margin_top">5</property>
+            <property name="margin_bottom">5</property>
             <property name="use_stock">True</property>
             <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
@@ -226,7 +275,10 @@
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
-            <property name="margin_right">2</property>
+            <property name="margin_left">5</property>
+            <property name="margin_right">5</property>
+            <property name="margin_top">5</property>
+            <property name="margin_bottom">5</property>
             <property name="use_stock">True</property>
             <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
@@ -240,7 +292,10 @@
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
-            <property name="margin_left">2</property>
+            <property name="margin_left">5</property>
+            <property name="margin_right">5</property>
+            <property name="margin_top">5</property>
+            <property name="margin_bottom">5</property>
             <property name="use_stock">True</property>
             <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
@@ -254,6 +309,10 @@
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
+            <property name="margin_left">5</property>
+            <property name="margin_right">5</property>
+            <property name="margin_top">5</property>
+            <property name="margin_bottom">5</property>
             <property name="use_stock">True</property>
             <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
@@ -267,6 +326,10 @@
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
+            <property name="margin_left">5</property>
+            <property name="margin_right">5</property>
+            <property name="margin_top">5</property>
+            <property name="margin_bottom">5</property>
             <property name="use_stock">True</property>
             <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
@@ -280,7 +343,10 @@
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
-            <property name="margin_bottom">2</property>
+            <property name="margin_left">5</property>
+            <property name="margin_right">5</property>
+            <property name="margin_top">5</property>
+            <property name="margin_bottom">5</property>
             <property name="use_stock">True</property>
             <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
@@ -294,7 +360,10 @@
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
-            <property name="margin_bottom">2</property>
+            <property name="margin_left">5</property>
+            <property name="margin_right">5</property>
+            <property name="margin_top">5</property>
+            <property name="margin_bottom">5</property>
             <property name="use_stock">True</property>
             <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
@@ -308,8 +377,10 @@
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
-            <property name="margin_right">2</property>
-            <property name="margin_bottom">2</property>
+            <property name="margin_left">5</property>
+            <property name="margin_right">5</property>
+            <property name="margin_top">5</property>
+            <property name="margin_bottom">5</property>
             <property name="use_stock">True</property>
             <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
@@ -323,8 +394,10 @@
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
-            <property name="margin_left">2</property>
-            <property name="margin_bottom">2</property>
+            <property name="margin_left">5</property>
+            <property name="margin_right">5</property>
+            <property name="margin_top">5</property>
+            <property name="margin_bottom">5</property>
             <property name="use_stock">True</property>
             <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
@@ -338,7 +411,10 @@
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
-            <property name="margin_bottom">2</property>
+            <property name="margin_left">5</property>
+            <property name="margin_right">5</property>
+            <property name="margin_top">5</property>
+            <property name="margin_bottom">5</property>
             <property name="use_stock">True</property>
             <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
@@ -352,8 +428,10 @@
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
-            <property name="margin_right">2</property>
-            <property name="margin_bottom">2</property>
+            <property name="margin_left">5</property>
+            <property name="margin_right">5</property>
+            <property name="margin_top">5</property>
+            <property name="margin_bottom">5</property>
             <property name="use_stock">True</property>
             <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
@@ -367,8 +445,10 @@
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
-            <property name="margin_left">2</property>
-            <property name="margin_bottom">2</property>
+            <property name="margin_left">5</property>
+            <property name="margin_right">5</property>
+            <property name="margin_top">5</property>
+            <property name="margin_bottom">5</property>
             <property name="use_stock">True</property>
             <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
@@ -382,7 +462,10 @@
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
-            <property name="margin_bottom">2</property>
+            <property name="margin_left">5</property>
+            <property name="margin_right">5</property>
+            <property name="margin_top">5</property>
+            <property name="margin_bottom">5</property>
             <property name="use_stock">True</property>
             <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
@@ -396,7 +479,10 @@
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
-            <property name="margin_bottom">2</property>
+            <property name="margin_left">5</property>
+            <property name="margin_right">5</property>
+            <property name="margin_top">5</property>
+            <property name="margin_bottom">5</property>
             <property name="use_stock">True</property>
             <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
@@ -410,7 +496,10 @@
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
-            <property name="margin_top">2</property>
+            <property name="margin_left">5</property>
+            <property name="margin_right">5</property>
+            <property name="margin_top">5</property>
+            <property name="margin_bottom">5</property>
             <property name="use_stock">True</property>
             <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
@@ -424,7 +513,10 @@
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
-            <property name="margin_top">2</property>
+            <property name="margin_left">5</property>
+            <property name="margin_right">5</property>
+            <property name="margin_top">5</property>
+            <property name="margin_bottom">5</property>
             <property name="use_stock">True</property>
             <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
@@ -438,8 +530,10 @@
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
-            <property name="margin_right">2</property>
-            <property name="margin_top">2</property>
+            <property name="margin_left">5</property>
+            <property name="margin_right">5</property>
+            <property name="margin_top">5</property>
+            <property name="margin_bottom">5</property>
             <property name="use_stock">True</property>
             <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
@@ -453,8 +547,10 @@
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
-            <property name="margin_left">2</property>
-            <property name="margin_top">2</property>
+            <property name="margin_left">5</property>
+            <property name="margin_right">5</property>
+            <property name="margin_top">5</property>
+            <property name="margin_bottom">5</property>
             <property name="use_stock">True</property>
             <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
@@ -468,7 +564,10 @@
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
-            <property name="margin_top">2</property>
+            <property name="margin_left">5</property>
+            <property name="margin_right">5</property>
+            <property name="margin_top">5</property>
+            <property name="margin_bottom">5</property>
             <property name="use_stock">True</property>
             <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
@@ -482,8 +581,10 @@
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
-            <property name="margin_right">2</property>
-            <property name="margin_top">2</property>
+            <property name="margin_left">5</property>
+            <property name="margin_right">5</property>
+            <property name="margin_top">5</property>
+            <property name="margin_bottom">5</property>
             <property name="use_stock">True</property>
             <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
@@ -497,8 +598,10 @@
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
-            <property name="margin_left">2</property>
-            <property name="margin_top">2</property>
+            <property name="margin_left">5</property>
+            <property name="margin_right">5</property>
+            <property name="margin_top">5</property>
+            <property name="margin_bottom">5</property>
             <property name="use_stock">True</property>
             <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
@@ -512,7 +615,10 @@
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
-            <property name="margin_top">2</property>
+            <property name="margin_left">5</property>
+            <property name="margin_right">5</property>
+            <property name="margin_top">5</property>
+            <property name="margin_bottom">5</property>
             <property name="use_stock">True</property>
             <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
@@ -526,7 +632,10 @@
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
-            <property name="margin_top">2</property>
+            <property name="margin_left">5</property>
+            <property name="margin_right">5</property>
+            <property name="margin_top">5</property>
+            <property name="margin_bottom">5</property>
             <property name="use_stock">True</property>
             <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
@@ -540,6 +649,10 @@
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
+            <property name="margin_left">5</property>
+            <property name="margin_right">5</property>
+            <property name="margin_top">5</property>
+            <property name="margin_bottom">5</property>
             <property name="use_stock">True</property>
             <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
@@ -553,6 +666,10 @@
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
+            <property name="margin_left">5</property>
+            <property name="margin_right">5</property>
+            <property name="margin_top">5</property>
+            <property name="margin_bottom">5</property>
             <property name="use_stock">True</property>
             <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
@@ -566,7 +683,10 @@
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
-            <property name="margin_right">2</property>
+            <property name="margin_left">5</property>
+            <property name="margin_right">5</property>
+            <property name="margin_top">5</property>
+            <property name="margin_bottom">5</property>
             <property name="use_stock">True</property>
             <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
@@ -580,7 +700,10 @@
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
-            <property name="margin_left">2</property>
+            <property name="margin_left">5</property>
+            <property name="margin_right">5</property>
+            <property name="margin_top">5</property>
+            <property name="margin_bottom">5</property>
             <property name="use_stock">True</property>
             <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
@@ -594,6 +717,10 @@
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
+            <property name="margin_left">5</property>
+            <property name="margin_right">5</property>
+            <property name="margin_top">5</property>
+            <property name="margin_bottom">5</property>
             <property name="use_stock">True</property>
             <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
@@ -607,7 +734,10 @@
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
-            <property name="margin_right">2</property>
+            <property name="margin_left">5</property>
+            <property name="margin_right">5</property>
+            <property name="margin_top">5</property>
+            <property name="margin_bottom">5</property>
             <property name="use_stock">True</property>
             <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
@@ -621,7 +751,10 @@
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
-            <property name="margin_left">2</property>
+            <property name="margin_left">5</property>
+            <property name="margin_right">5</property>
+            <property name="margin_top">5</property>
+            <property name="margin_bottom">5</property>
             <property name="use_stock">True</property>
             <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
@@ -635,6 +768,10 @@
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
+            <property name="margin_left">5</property>
+            <property name="margin_right">5</property>
+            <property name="margin_top">5</property>
+            <property name="margin_bottom">5</property>
             <property name="use_stock">True</property>
             <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
@@ -648,6 +785,10 @@
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
+            <property name="margin_left">5</property>
+            <property name="margin_right">5</property>
+            <property name="margin_top">5</property>
+            <property name="margin_bottom">5</property>
             <property name="use_stock">True</property>
             <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
@@ -661,7 +802,10 @@
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
-            <property name="margin_bottom">2</property>
+            <property name="margin_left">5</property>
+            <property name="margin_right">5</property>
+            <property name="margin_top">5</property>
+            <property name="margin_bottom">5</property>
             <property name="use_stock">True</property>
             <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
@@ -675,7 +819,10 @@
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
-            <property name="margin_bottom">2</property>
+            <property name="margin_left">5</property>
+            <property name="margin_right">5</property>
+            <property name="margin_top">5</property>
+            <property name="margin_bottom">5</property>
             <property name="use_stock">True</property>
             <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
@@ -689,8 +836,10 @@
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
-            <property name="margin_right">2</property>
-            <property name="margin_bottom">2</property>
+            <property name="margin_left">5</property>
+            <property name="margin_right">5</property>
+            <property name="margin_top">5</property>
+            <property name="margin_bottom">5</property>
             <property name="use_stock">True</property>
             <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
@@ -704,8 +853,10 @@
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
-            <property name="margin_left">2</property>
-            <property name="margin_bottom">2</property>
+            <property name="margin_left">5</property>
+            <property name="margin_right">5</property>
+            <property name="margin_top">5</property>
+            <property name="margin_bottom">5</property>
             <property name="use_stock">True</property>
             <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
@@ -719,7 +870,10 @@
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
-            <property name="margin_bottom">2</property>
+            <property name="margin_left">5</property>
+            <property name="margin_right">5</property>
+            <property name="margin_top">5</property>
+            <property name="margin_bottom">5</property>
             <property name="use_stock">True</property>
             <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
@@ -733,8 +887,10 @@
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
-            <property name="margin_right">2</property>
-            <property name="margin_bottom">2</property>
+            <property name="margin_left">5</property>
+            <property name="margin_right">5</property>
+            <property name="margin_top">5</property>
+            <property name="margin_bottom">5</property>
             <property name="use_stock">True</property>
             <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
@@ -748,8 +904,10 @@
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
-            <property name="margin_left">2</property>
-            <property name="margin_bottom">2</property>
+            <property name="margin_left">5</property>
+            <property name="margin_right">5</property>
+            <property name="margin_top">5</property>
+            <property name="margin_bottom">5</property>
             <property name="use_stock">True</property>
             <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
@@ -763,7 +921,10 @@
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
-            <property name="margin_bottom">2</property>
+            <property name="margin_left">5</property>
+            <property name="margin_right">5</property>
+            <property name="margin_top">5</property>
+            <property name="margin_bottom">5</property>
             <property name="use_stock">True</property>
             <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
@@ -777,7 +938,10 @@
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
-            <property name="margin_bottom">2</property>
+            <property name="margin_left">5</property>
+            <property name="margin_right">5</property>
+            <property name="margin_top">5</property>
+            <property name="margin_bottom">5</property>
             <property name="use_stock">True</property>
             <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
@@ -791,7 +955,10 @@
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
-            <property name="margin_top">2</property>
+            <property name="margin_left">5</property>
+            <property name="margin_right">5</property>
+            <property name="margin_top">5</property>
+            <property name="margin_bottom">5</property>
             <property name="use_stock">True</property>
             <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
@@ -805,7 +972,10 @@
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
-            <property name="margin_top">2</property>
+            <property name="margin_left">5</property>
+            <property name="margin_right">5</property>
+            <property name="margin_top">5</property>
+            <property name="margin_bottom">5</property>
             <property name="use_stock">True</property>
             <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
@@ -819,8 +989,10 @@
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
-            <property name="margin_right">2</property>
-            <property name="margin_top">2</property>
+            <property name="margin_left">5</property>
+            <property name="margin_right">5</property>
+            <property name="margin_top">5</property>
+            <property name="margin_bottom">5</property>
             <property name="use_stock">True</property>
             <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
@@ -834,8 +1006,10 @@
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
-            <property name="margin_left">2</property>
-            <property name="margin_top">2</property>
+            <property name="margin_left">5</property>
+            <property name="margin_right">5</property>
+            <property name="margin_top">5</property>
+            <property name="margin_bottom">5</property>
             <property name="use_stock">True</property>
             <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
@@ -849,7 +1023,10 @@
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
-            <property name="margin_top">2</property>
+            <property name="margin_left">5</property>
+            <property name="margin_right">5</property>
+            <property name="margin_top">5</property>
+            <property name="margin_bottom">5</property>
             <property name="use_stock">True</property>
             <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
@@ -863,8 +1040,10 @@
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
-            <property name="margin_right">2</property>
-            <property name="margin_top">2</property>
+            <property name="margin_left">5</property>
+            <property name="margin_right">5</property>
+            <property name="margin_top">5</property>
+            <property name="margin_bottom">5</property>
             <property name="use_stock">True</property>
             <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
@@ -878,8 +1057,10 @@
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
-            <property name="margin_left">2</property>
-            <property name="margin_top">2</property>
+            <property name="margin_left">5</property>
+            <property name="margin_right">5</property>
+            <property name="margin_top">5</property>
+            <property name="margin_bottom">5</property>
             <property name="use_stock">True</property>
             <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
@@ -893,7 +1074,10 @@
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
-            <property name="margin_top">2</property>
+            <property name="margin_left">5</property>
+            <property name="margin_right">5</property>
+            <property name="margin_top">5</property>
+            <property name="margin_bottom">5</property>
             <property name="use_stock">True</property>
             <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
@@ -907,7 +1091,10 @@
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
-            <property name="margin_top">2</property>
+            <property name="margin_left">5</property>
+            <property name="margin_right">5</property>
+            <property name="margin_top">5</property>
+            <property name="margin_bottom">5</property>
             <property name="use_stock">True</property>
             <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
@@ -921,6 +1108,10 @@
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
+            <property name="margin_left">5</property>
+            <property name="margin_right">5</property>
+            <property name="margin_top">5</property>
+            <property name="margin_bottom">5</property>
             <property name="use_stock">True</property>
             <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
@@ -934,6 +1125,10 @@
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
+            <property name="margin_left">5</property>
+            <property name="margin_right">5</property>
+            <property name="margin_top">5</property>
+            <property name="margin_bottom">5</property>
             <property name="use_stock">True</property>
             <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
@@ -947,7 +1142,10 @@
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
-            <property name="margin_right">2</property>
+            <property name="margin_left">5</property>
+            <property name="margin_right">5</property>
+            <property name="margin_top">5</property>
+            <property name="margin_bottom">5</property>
             <property name="use_stock">True</property>
             <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
@@ -961,7 +1159,10 @@
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
-            <property name="margin_left">2</property>
+            <property name="margin_left">5</property>
+            <property name="margin_right">5</property>
+            <property name="margin_top">5</property>
+            <property name="margin_bottom">5</property>
             <property name="use_stock">True</property>
             <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
@@ -975,6 +1176,10 @@
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
+            <property name="margin_left">5</property>
+            <property name="margin_right">5</property>
+            <property name="margin_top">5</property>
+            <property name="margin_bottom">5</property>
             <property name="use_stock">True</property>
             <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
@@ -988,7 +1193,10 @@
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
-            <property name="margin_right">2</property>
+            <property name="margin_left">5</property>
+            <property name="margin_right">5</property>
+            <property name="margin_top">5</property>
+            <property name="margin_bottom">5</property>
             <property name="use_stock">True</property>
             <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
@@ -1002,7 +1210,10 @@
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
-            <property name="margin_left">2</property>
+            <property name="margin_left">5</property>
+            <property name="margin_right">5</property>
+            <property name="margin_top">5</property>
+            <property name="margin_bottom">5</property>
             <property name="use_stock">True</property>
             <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
@@ -1016,6 +1227,10 @@
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
+            <property name="margin_left">5</property>
+            <property name="margin_right">5</property>
+            <property name="margin_top">5</property>
+            <property name="margin_bottom">5</property>
             <property name="use_stock">True</property>
             <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
@@ -1029,6 +1244,10 @@
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
+            <property name="margin_left">5</property>
+            <property name="margin_right">5</property>
+            <property name="margin_top">5</property>
+            <property name="margin_bottom">5</property>
             <property name="use_stock">True</property>
             <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
@@ -1042,6 +1261,10 @@
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
+            <property name="margin_left">5</property>
+            <property name="margin_right">5</property>
+            <property name="margin_top">5</property>
+            <property name="margin_bottom">5</property>
             <property name="use_stock">True</property>
             <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
@@ -1055,6 +1278,10 @@
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
+            <property name="margin_left">5</property>
+            <property name="margin_right">5</property>
+            <property name="margin_top">5</property>
+            <property name="margin_bottom">5</property>
             <property name="use_stock">True</property>
             <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
@@ -1068,7 +1295,10 @@
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
-            <property name="margin_right">2</property>
+            <property name="margin_left">5</property>
+            <property name="margin_right">5</property>
+            <property name="margin_top">5</property>
+            <property name="margin_bottom">5</property>
             <property name="use_stock">True</property>
             <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
@@ -1082,7 +1312,10 @@
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
-            <property name="margin_left">2</property>
+            <property name="margin_left">5</property>
+            <property name="margin_right">5</property>
+            <property name="margin_top">5</property>
+            <property name="margin_bottom">5</property>
             <property name="use_stock">True</property>
             <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
@@ -1096,6 +1329,10 @@
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
+            <property name="margin_left">5</property>
+            <property name="margin_right">5</property>
+            <property name="margin_top">5</property>
+            <property name="margin_bottom">5</property>
             <property name="use_stock">True</property>
             <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
@@ -1109,7 +1346,10 @@
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
-            <property name="margin_right">2</property>
+            <property name="margin_left">5</property>
+            <property name="margin_right">5</property>
+            <property name="margin_top">5</property>
+            <property name="margin_bottom">5</property>
             <property name="use_stock">True</property>
             <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
@@ -1123,7 +1363,10 @@
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
-            <property name="margin_left">2</property>
+            <property name="margin_left">5</property>
+            <property name="margin_right">5</property>
+            <property name="margin_top">5</property>
+            <property name="margin_bottom">5</property>
             <property name="use_stock">True</property>
             <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
@@ -1137,6 +1380,10 @@
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
+            <property name="margin_left">5</property>
+            <property name="margin_right">5</property>
+            <property name="margin_top">5</property>
+            <property name="margin_bottom">5</property>
             <property name="use_stock">True</property>
             <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
@@ -1150,6 +1397,10 @@
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">True</property>
+            <property name="margin_left">5</property>
+            <property name="margin_right">5</property>
+            <property name="margin_top">5</property>
+            <property name="margin_bottom">5</property>
             <property name="use_stock">True</property>
             <signal name="clicked" handler="on_btn_display_clicked" swapped="no"/>
           </object>
@@ -1306,19 +1557,6 @@
             <property name="top_attach">8</property>
             <property name="width">3</property>
             <property name="height">2</property>
-          </packing>
-        </child>
-        <child>
-          <object class="GtkImage" id="img">
-            <property name="visible">True</property>
-            <property name="can_focus">False</property>
-            <property name="pixbuf">blank-sudoku-grid.png</property>
-          </object>
-          <packing>
-            <property name="left_attach">1</property>
-            <property name="top_attach">1</property>
-            <property name="width">9</property>
-            <property name="height">9</property>
           </packing>
         </child>
         <child>
@@ -1685,10 +1923,959 @@
             <property name="max_length">10</property>
           </object>
           <packing>
-            <property name="left_attach">2</property>
+            <property name="left_attach">3</property>
             <property name="top_attach">10</property>
             <property name="width">4</property>
           </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="img_blue0">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">blue.png</property>
+          </object>
+          <packing>
+            <property name="left_attach">1</property>
+            <property name="top_attach">1</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="img_blue1">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">blue.png</property>
+          </object>
+          <packing>
+            <property name="left_attach">2</property>
+            <property name="top_attach">1</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="img_blue2">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">blue.png</property>
+          </object>
+          <packing>
+            <property name="left_attach">3</property>
+            <property name="top_attach">1</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="img_blue3">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">blue.png</property>
+          </object>
+          <packing>
+            <property name="left_attach">4</property>
+            <property name="top_attach">1</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="img_blue4">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">blue.png</property>
+          </object>
+          <packing>
+            <property name="left_attach">5</property>
+            <property name="top_attach">1</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="img_blue5">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">blue.png</property>
+          </object>
+          <packing>
+            <property name="left_attach">6</property>
+            <property name="top_attach">1</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="img_blue6">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">blue.png</property>
+          </object>
+          <packing>
+            <property name="left_attach">7</property>
+            <property name="top_attach">1</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="img_blue7">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">blue.png</property>
+          </object>
+          <packing>
+            <property name="left_attach">8</property>
+            <property name="top_attach">1</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="img_blue8">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">blue.png</property>
+          </object>
+          <packing>
+            <property name="left_attach">9</property>
+            <property name="top_attach">1</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="img_blue9">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">blue.png</property>
+          </object>
+          <packing>
+            <property name="left_attach">1</property>
+            <property name="top_attach">2</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="img_blue10">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">blue.png</property>
+          </object>
+          <packing>
+            <property name="left_attach">2</property>
+            <property name="top_attach">2</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="img_blue11">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">blue.png</property>
+          </object>
+          <packing>
+            <property name="left_attach">3</property>
+            <property name="top_attach">2</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="img_blue12">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">blue.png</property>
+          </object>
+          <packing>
+            <property name="left_attach">4</property>
+            <property name="top_attach">2</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="img_blue13">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">blue.png</property>
+          </object>
+          <packing>
+            <property name="left_attach">5</property>
+            <property name="top_attach">2</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="img_blue14">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">blue.png</property>
+          </object>
+          <packing>
+            <property name="left_attach">6</property>
+            <property name="top_attach">2</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="img_blue15">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">blue.png</property>
+          </object>
+          <packing>
+            <property name="left_attach">7</property>
+            <property name="top_attach">2</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="img_blue16">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">blue.png</property>
+          </object>
+          <packing>
+            <property name="left_attach">8</property>
+            <property name="top_attach">2</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="img_blue17">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">blue.png</property>
+          </object>
+          <packing>
+            <property name="left_attach">9</property>
+            <property name="top_attach">2</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="img_blue18">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">blue.png</property>
+          </object>
+          <packing>
+            <property name="left_attach">1</property>
+            <property name="top_attach">3</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="img_blue19">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">blue.png</property>
+          </object>
+          <packing>
+            <property name="left_attach">2</property>
+            <property name="top_attach">3</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="img_blue20">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">blue.png</property>
+          </object>
+          <packing>
+            <property name="left_attach">3</property>
+            <property name="top_attach">3</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="img_blue21">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">blue.png</property>
+          </object>
+          <packing>
+            <property name="left_attach">4</property>
+            <property name="top_attach">3</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="img_blue22">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">blue.png</property>
+          </object>
+          <packing>
+            <property name="left_attach">5</property>
+            <property name="top_attach">3</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="img_blue23">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">blue.png</property>
+          </object>
+          <packing>
+            <property name="left_attach">6</property>
+            <property name="top_attach">3</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="img_blue24">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">blue.png</property>
+          </object>
+          <packing>
+            <property name="left_attach">7</property>
+            <property name="top_attach">3</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="img_blue25">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">blue.png</property>
+          </object>
+          <packing>
+            <property name="left_attach">8</property>
+            <property name="top_attach">3</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="img_blue26">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">blue.png</property>
+          </object>
+          <packing>
+            <property name="left_attach">9</property>
+            <property name="top_attach">3</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="img_blue27">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">blue.png</property>
+          </object>
+          <packing>
+            <property name="left_attach">1</property>
+            <property name="top_attach">4</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="img_blue28">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">blue.png</property>
+          </object>
+          <packing>
+            <property name="left_attach">2</property>
+            <property name="top_attach">4</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="img_blue29">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">blue.png</property>
+          </object>
+          <packing>
+            <property name="left_attach">3</property>
+            <property name="top_attach">4</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="img_blue30">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">blue.png</property>
+          </object>
+          <packing>
+            <property name="left_attach">4</property>
+            <property name="top_attach">4</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="img_blue31">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">blue.png</property>
+          </object>
+          <packing>
+            <property name="left_attach">5</property>
+            <property name="top_attach">4</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="img_blue32">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">blue.png</property>
+          </object>
+          <packing>
+            <property name="left_attach">6</property>
+            <property name="top_attach">4</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="img_blue33">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">blue.png</property>
+          </object>
+          <packing>
+            <property name="left_attach">7</property>
+            <property name="top_attach">4</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="img_blue34">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">blue.png</property>
+          </object>
+          <packing>
+            <property name="left_attach">8</property>
+            <property name="top_attach">4</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="img_blue35">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">blue.png</property>
+          </object>
+          <packing>
+            <property name="left_attach">9</property>
+            <property name="top_attach">4</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="img_blue36">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">blue.png</property>
+          </object>
+          <packing>
+            <property name="left_attach">1</property>
+            <property name="top_attach">5</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="img_blue37">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">blue.png</property>
+          </object>
+          <packing>
+            <property name="left_attach">2</property>
+            <property name="top_attach">5</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="img_blue38">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">blue.png</property>
+          </object>
+          <packing>
+            <property name="left_attach">3</property>
+            <property name="top_attach">5</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="img_blue39">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">blue.png</property>
+          </object>
+          <packing>
+            <property name="left_attach">4</property>
+            <property name="top_attach">5</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="img_blue40">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">blue.png</property>
+          </object>
+          <packing>
+            <property name="left_attach">5</property>
+            <property name="top_attach">5</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="img_blue41">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">blue.png</property>
+          </object>
+          <packing>
+            <property name="left_attach">6</property>
+            <property name="top_attach">5</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="img_blue42">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">blue.png</property>
+          </object>
+          <packing>
+            <property name="left_attach">7</property>
+            <property name="top_attach">5</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="img_blue43">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">blue.png</property>
+          </object>
+          <packing>
+            <property name="left_attach">8</property>
+            <property name="top_attach">5</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="img_blue44">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">blue.png</property>
+          </object>
+          <packing>
+            <property name="left_attach">9</property>
+            <property name="top_attach">5</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="img_blue45">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">blue.png</property>
+          </object>
+          <packing>
+            <property name="left_attach">1</property>
+            <property name="top_attach">6</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="img_blue46">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">blue.png</property>
+          </object>
+          <packing>
+            <property name="left_attach">2</property>
+            <property name="top_attach">6</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="img_blue47">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">blue.png</property>
+          </object>
+          <packing>
+            <property name="left_attach">3</property>
+            <property name="top_attach">6</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="img_blue48">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">blue.png</property>
+          </object>
+          <packing>
+            <property name="left_attach">4</property>
+            <property name="top_attach">6</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="img_blue49">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">blue.png</property>
+          </object>
+          <packing>
+            <property name="left_attach">5</property>
+            <property name="top_attach">6</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="img_blue50">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">blue.png</property>
+          </object>
+          <packing>
+            <property name="left_attach">6</property>
+            <property name="top_attach">6</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="img_blue51">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">blue.png</property>
+          </object>
+          <packing>
+            <property name="left_attach">7</property>
+            <property name="top_attach">6</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="img_blue52">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">blue.png</property>
+          </object>
+          <packing>
+            <property name="left_attach">8</property>
+            <property name="top_attach">6</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="img_blue53">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">blue.png</property>
+          </object>
+          <packing>
+            <property name="left_attach">9</property>
+            <property name="top_attach">6</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="img_blue54">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">blue.png</property>
+          </object>
+          <packing>
+            <property name="left_attach">1</property>
+            <property name="top_attach">7</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="img_blue55">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">blue.png</property>
+          </object>
+          <packing>
+            <property name="left_attach">2</property>
+            <property name="top_attach">7</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="img_blue56">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">blue.png</property>
+          </object>
+          <packing>
+            <property name="left_attach">3</property>
+            <property name="top_attach">7</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="img_blue57">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">blue.png</property>
+          </object>
+          <packing>
+            <property name="left_attach">4</property>
+            <property name="top_attach">7</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="img_blue58">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">blue.png</property>
+          </object>
+          <packing>
+            <property name="left_attach">5</property>
+            <property name="top_attach">7</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="img_blue59">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">blue.png</property>
+          </object>
+          <packing>
+            <property name="left_attach">6</property>
+            <property name="top_attach">7</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="img_blue60">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">blue.png</property>
+          </object>
+          <packing>
+            <property name="left_attach">7</property>
+            <property name="top_attach">7</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="img_blue61">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">blue.png</property>
+          </object>
+          <packing>
+            <property name="left_attach">8</property>
+            <property name="top_attach">7</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="img_blue62">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">blue.png</property>
+          </object>
+          <packing>
+            <property name="left_attach">9</property>
+            <property name="top_attach">7</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="img_blue63">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">blue.png</property>
+          </object>
+          <packing>
+            <property name="left_attach">1</property>
+            <property name="top_attach">8</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="img_blue64">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">blue.png</property>
+          </object>
+          <packing>
+            <property name="left_attach">2</property>
+            <property name="top_attach">8</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="img_blue65">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">blue.png</property>
+          </object>
+          <packing>
+            <property name="left_attach">3</property>
+            <property name="top_attach">8</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="img_blue66">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">blue.png</property>
+          </object>
+          <packing>
+            <property name="left_attach">4</property>
+            <property name="top_attach">8</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="img_blue67">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">blue.png</property>
+          </object>
+          <packing>
+            <property name="left_attach">5</property>
+            <property name="top_attach">8</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="img_blue68">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">blue.png</property>
+          </object>
+          <packing>
+            <property name="left_attach">6</property>
+            <property name="top_attach">8</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="img_blue69">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">blue.png</property>
+          </object>
+          <packing>
+            <property name="left_attach">7</property>
+            <property name="top_attach">8</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="img_blue70">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">blue.png</property>
+          </object>
+          <packing>
+            <property name="left_attach">8</property>
+            <property name="top_attach">8</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="img_blue71">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">blue.png</property>
+          </object>
+          <packing>
+            <property name="left_attach">9</property>
+            <property name="top_attach">8</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="img_blue72">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">blue.png</property>
+          </object>
+          <packing>
+            <property name="left_attach">1</property>
+            <property name="top_attach">9</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="img_blue73">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">blue.png</property>
+          </object>
+          <packing>
+            <property name="left_attach">2</property>
+            <property name="top_attach">9</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="img_blue74">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">blue.png</property>
+          </object>
+          <packing>
+            <property name="left_attach">3</property>
+            <property name="top_attach">9</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="img_blue75">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">blue.png</property>
+          </object>
+          <packing>
+            <property name="left_attach">4</property>
+            <property name="top_attach">9</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="img_blue76">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">blue.png</property>
+          </object>
+          <packing>
+            <property name="left_attach">5</property>
+            <property name="top_attach">9</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="img_blue77">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">blue.png</property>
+          </object>
+          <packing>
+            <property name="left_attach">6</property>
+            <property name="top_attach">9</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="img_blue78">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">blue.png</property>
+          </object>
+          <packing>
+            <property name="left_attach">7</property>
+            <property name="top_attach">9</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="img_blue79">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">blue.png</property>
+          </object>
+          <packing>
+            <property name="left_attach">8</property>
+            <property name="top_attach">9</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="img_blue80">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">blue.png</property>
+          </object>
+          <packing>
+            <property name="left_attach">9</property>
+            <property name="top_attach">9</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="img">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">blank-sudoku-grid.png</property>
+          </object>
+          <packing>
+            <property name="left_attach">1</property>
+            <property name="top_attach">1</property>
+            <property name="width">9</property>
+            <property name="height">9</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="btn_easy">
+            <property name="label" translatable="yes">Fácil</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <signal name="clicked" handler="on_btn_easy_clicked" swapped="no"/>
+          </object>
+          <packing>
+            <property name="left_attach">1</property>
+            <property name="top_attach">11</property>
+            <property name="width">2</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="btn_medium">
+            <property name="label" translatable="yes">Médio</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <signal name="clicked" handler="on_btn_medium_clicked" swapped="no"/>
+          </object>
+          <packing>
+            <property name="left_attach">4</property>
+            <property name="top_attach">11</property>
+            <property name="width">2</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="btn_hard">
+            <property name="label" translatable="yes">Difícil</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <signal name="clicked" handler="on_btn_hard_clicked" swapped="no"/>
+          </object>
+          <packing>
+            <property name="left_attach">7</property>
+            <property name="top_attach">11</property>
+            <property name="width">2</property>
+          </packing>
+        </child>
+        <child>
+          <placeholder/>
         </child>
         <child>
           <placeholder/>

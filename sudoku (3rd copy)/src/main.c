@@ -14,8 +14,11 @@ GtkButton *g_btn_display[MAX_SIZE][MAX_SIZE];
 GtkButton *g_btn_input[MAX_SIZE];
 GtkButton *g_btn_test[MAX_SIZE];
 GtkWidget *g_img;
+GtkWidget *g_img_btn_display[MAX_SIZE*MAX_SIZE];
 GtkEntry *g_entry_name;
 element jogo[MAX_SIZE][MAX_SIZE];
+
+
 
 void hide_btn_input(){
   for(int i=0; i<MAX_SIZE; i++){
@@ -34,6 +37,7 @@ int main(int argc, char *argv[])
     int i, j;
     GtkBuilder      *builder;
     GtkWidget       *window;
+    
 
     gtk_init(&argc, &argv);
 
@@ -48,6 +52,9 @@ int main(int argc, char *argv[])
     g_img = GTK_WIDGET(gtk_builder_get_object(builder, "img"));
     g_entry_name = GTK_ENTRY(gtk_builder_get_object(builder, "entry_name"));
     
+
+
+
     // get pointers to the buttons
     char btn_name[20];
     for(i=0;i<MAX_SIZE;i++){
@@ -55,6 +62,10 @@ int main(int argc, char *argv[])
       g_btn_input[i] = GTK_BUTTON(gtk_builder_get_object(builder, btn_name));
       g_object_set(g_btn_input[i],"visible",false,NULL);
       for(j=0;j<MAX_SIZE;j++){
+        sprintf(btn_name, "img_blue%d", MAX_SIZE*i + j );
+        g_img_btn_display[MAX_SIZE*i + j] = GTK_WIDGET(gtk_builder_get_object(builder, btn_name));
+        g_object_set(g_img_btn_display[MAX_SIZE*i + j], "visible", false, NULL);
+
         sprintf(btn_name, "btn_display_%d%d", i, j);
         g_btn_display[i][j] = GTK_BUTTON(gtk_builder_get_object(builder, btn_name));
         g_object_set(g_btn_display[i][j], "visible", false, NULL);
@@ -82,6 +93,8 @@ void on_btn_clicked()
     g_object_set(g_btn_input[i], "visible", true, NULL);
     for(j=0;j<MAX_SIZE;j++){ 
       g_object_set(g_btn_display[i][j], "visible", true, NULL);
+      if( jogo[i][j].fixed )
+        g_object_set(g_img_btn_display[MAX_SIZE*i + j], "visible", true, NULL);
       if(jogo[i][j].value == 0)
         gtk_button_set_label(g_btn_display[i][j], " ");
       else{
